@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>linkedin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <style>
+        .img_logo{
+            height: 40px;
+        }
+        .partition{
+            border: solid 0.5px rgba(0, 0, 0, 0.3);
+            border-top: transparent;
+            border-left: transparent;
+            border-bottom: transparent;
+        }
+        .txt_color{
+            color: rgba(0, 0, 0, 0.6);
+        }
+        .heading{
+            color: rgb(152, 101, 87);
+        }
+        .image{
+            height: 500px;
+        }
+        .or{
+            display: inline-flex;
+            width: 40%;
+        }
+        .txt_or{
+            display: inline-flex;
+        }
+        span{
+            display: block;
+        }
+        hr{
+            vertical-align: bottom;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-2 mt-2">
+                <img src="../media/3.png" alt="Logo" class="img_logo image-fluid">
+            </div>
+            <div class="col-md-2 mt-2"></div>
+            <div class="col-md-1 text-center mt-2 txt_color"><i class="bi bi-compass-fill"></i><br>Discover</div>
+            <div class="col-md-1 text-center mt-2 txt_color"><i class="bi bi-people-fill"></i><br>People</div>
+            <div class="col-md-1 text-center mt-2 txt_color"><i class="bi bi-tv-fill"></i><br>Learning</div>
+            <div class="col-md-1 text-center mt-2 txt_color partition"><i class="bi bi-briefcase-fill"></i><br>Jobs</div>
+            <div class="col-md-1 text-center fw-bold mt-4 txt_color">Join Now</div>
+            <div class="col-md-1 text-center mt-3"><button class="btn btn-outline-primary rounded-pill px-3 py-2">Sign In</button></div>
+        </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-4 mt-5 pt-3 fw-lighter heading fs-1">Join the biggest professional community
+                <form>
+                    <input type="email" class="py-2 mt-3 form-control" placeholder="Email">
+                    <input type="password" class="py-2 mt-3 form-control" placeholder="Password (8+ characters)">
+                    <label class="fs-6 text-dark pt-3">By clicking Agree & Join, you agree to the Linkedin <a href="" class="text-decoration-none fw-bold">User Agreement Privacy Policy</a>, and <a href="" class="text-decoration-none fw-bold">Cookie Policy</a>.</label>
+                    <button class="fs-5 btn btn-primary py-2  mt-1 form-control rounded-pill">Agree & Join</button>
+                </form>
+                <span class="text-center"><hr class="text-dark or"><label class="text_or text-dark fs-6 my-0 mx-3 pt-0"> or</label><hr class="text-dark or"></span>
+                <span class="fs-6 text-dark text-center pt-0 mt-3">Already on LinkedIn? <a href="" class="text-decoration-none fw-bold">Sign In</a>.</span>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col">
+                <img src="../media/1.jpg" alt="Image Not Loaded" class="image image-fluid mt-5 pt-3">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+</html>
