@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+        *{
+        font-family: 'Poppins', sans-serif;
+        }
+        body{
+            background-color: rgb(27, 188, 155);
+        }
+        .heading{
+            background-color: rgb(22, 160,134);
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        .box{
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        .icon{
+            background-color: rgb(22, 160,134);
+        }
+        input::placeholder{
+            font-family: 'Poppins', sans-serif;
+            font-size: 17px;
+        }
+        span{
+            display: block;
+            font-size: 17px;
+        }
+        a{
+            color: rgb(27, 188, 155);
+            font-size: 17px;
+        }
+        .btnLogin{
+            background-color: rgb(22, 160,134);
+            color: white;
+            border: transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 mt-5"></div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 text-light text-center mt-5 fs-1 py-3 fw-bold heading">Login Form</div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 text-center fw-bold bg-light box">
+                    <div class="input-group">
+                        <span class="input-group-text fs-4 mt-5 ms-3 text-light icon"><i class="bi bi-person-fill"></i></span>
+                        <input type="text" name="username" class="form-control fs-4 mt-5 me-3" placeholder="Email or Phone">
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text fs-4 mt-2 ms-3 text-light icon"><i class="bi bi-lock-fill"></i></span>
+                        <input type="password" name="password" class="form-control fs-4 mt-2 me-3" placeholder="Password">
+                    </div>
+                    <span class="text-start forgot mt-2 ms-3"><a href="" class="text-decoration-none fw-lighter">Forgot Password?</a></span>
+                    <span class="mx-4 mt-3 button"><button class="form-control fs-5 py-2 btnLogin">Login</button></span>
+                    <span class="text-center forgot mt-3 mb-5 ms-3 fw-lighter">Not a member? <a href="" class="text-decoration-none fw-lighter">Sign up now</a></span>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+</html>
